@@ -1,0 +1,11 @@
+[package]
+name = "tapt-typing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+derive_more = { workspace = true }
+tapt-shared = { path = "../shared" }
+
+[lints]
+workspace = true

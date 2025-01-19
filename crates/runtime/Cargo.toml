@@ -1,0 +1,13 @@
+[package]
+name = "tapt-runtime"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tapt-parser = { path = "../parser" }
+tapt-typing = { path = "../typing" }
+tapt-compiler = { path = "../compiler" }
+tapt-vm = { path = "../vm" }
+
+[lints]
+workspace = true

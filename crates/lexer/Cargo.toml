@@ -1,0 +1,12 @@
+[package]
+name = "tapt-lexer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+peekmore = { workspace = true }
+derive_more = { workspace = true }
+tapt-shared = { path = "../shared" }
+
+[lints]
+workspace = true

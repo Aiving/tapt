@@ -1,0 +1,15 @@
+[package]
+name = "tapt-parser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+peekmore = { workspace = true }
+thiserror = { workspace = true }
+derive_more = { workspace = true }
+tapt-typing = { path = "../typing" }
+tapt-lexer = { path = "../lexer" }
+tapt-shared = { path = "../shared" }
+
+[lints]
+workspace = true
